@@ -35,8 +35,8 @@ Bicicleta.findById = function(biciId){
 }
 
 
-var a = new Bicicleta(1, 'Naranja', 'urbana', [-34.6012 ,-58.3861]);
-var b = new Bicicleta(2, 'blanca', 'urbana', [-34.5969 ,-58.3808]);
+var a = new Bicicleta(1, 'Naranja', 'urbana', [-16.54655,-68.03333]);
+var b = new Bicicleta(2, 'blanca', 'urbana', [-16.54655,-68.04214]);
 
 Bicicleta.add(a);
 Bicicleta.add(b);

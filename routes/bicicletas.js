@@ -1,6 +1,6 @@
 
 var express = require('express');
-const { bicicleta_create_get } = require('../controllers/bicicleta');
+//const { bicicleta_create_get } = require('../controllers/bicicleta');
 var router = express.Router();
 var bicicletaController = require('../controllers/bicicleta')
  
