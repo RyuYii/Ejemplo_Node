@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+    a(href='/bicicletas') Volver
+
+    .container
+        ul.list-group
+            li.list-group-item.active=`ID: ${bici.id}`
+            li.list-group-item=`COLOR: ${bici.color}`
+            li.list-group-item=`MODELO: ${bici.modelo}`
+            li.list-group-item=`LATITUD: ${bici.ubicacion[0]}`
+            li.list-group-item=`LONGITUD: ${bici.ubicacion[1]}`
